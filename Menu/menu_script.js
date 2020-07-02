@@ -321,7 +321,7 @@ $(".orderButton").on("click", function()
         mealToOrder.ingredients.push(id);
     });
 
-    alert (mealToOrder.ingredients);
+    alert (mealToOrder.ingredients + " " + mealToOrder.name + " " + mealToOrder.price);
     shoppingCart.push(mealToOrder);
 });
 
